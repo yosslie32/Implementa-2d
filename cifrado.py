@@ -1,8 +1,8 @@
 texto=input("Tu texto: ")
 if texto== texto.upper():
-    abc="ABCDEFGHIJKLMNOPQRSTVXYZ"
+    abc="0123456789"
 else:
-    abc="abcdefghijklmnopqrstuvwxyz"
+    abc="1234567890"
 k=int(input("Valor de desplazamiento "))
 cifrad=""
 for c in texto:
